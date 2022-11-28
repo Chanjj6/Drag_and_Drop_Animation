@@ -4,21 +4,17 @@ import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
 import android.content.ClipData
 import android.content.ClipDescription
-import android.content.Intent
 import android.graphics.Canvas
 import android.graphics.Point
 import android.graphics.drawable.AnimationDrawable
-import android.media.MediaPlayer
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler
 import android.util.Log
 import android.view.DragEvent
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
-import android.widget.Toast
 import com.example.drag_and_drop_animation.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
